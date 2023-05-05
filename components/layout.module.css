@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 0 0;
+  padding: 1rem;
+  bottom: 0;
+  position: static;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialMediaIcon {
+  font-size: 2rem;
+}
+
+.socialMediaIconS {
+  font-size: 1.5rem;
+}
+
+.logoHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoHeader h1 {
+  width: 10px;
+}

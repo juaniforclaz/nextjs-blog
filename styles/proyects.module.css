@@ -1,0 +1,16 @@
+.proyects {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.proyects ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.proyects ul li {
+  border-bottom: 1px solid;
+  padding-bottom: 0.5rem;
+}
