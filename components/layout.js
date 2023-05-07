@@ -16,7 +16,7 @@ export const siteTitle = "Portfolio Personal";
 
 export default function Layout({ children, home }) {
   return (
-    <div className="container lg:p-60 pt-10">
+    <div className="container p-60 pt-10">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -29,7 +29,6 @@ export default function Layout({ children, home }) {
             siteTitle
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
-        <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
@@ -71,10 +70,10 @@ export default function Layout({ children, home }) {
       </header>
       <main>{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
+        <div className="pt-10">
           <Link href="/">
-            <button className="bg-sky-500 hover:bg-sky-700 decoration-white">
-              ← Volver
+            <button className="bg-sky-500 hover:bg-sky-700 rounded-full p-2 drop-shadow-md hover:drop-shadow-xl hover:text-white text-slate-300">
+              Volver
             </button>
           </Link>
         </div>
