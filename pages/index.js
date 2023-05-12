@@ -6,6 +6,8 @@ import Link from "next/link";
 import Date from "../components/date";
 
 import { getSortedPostsData } from "../lib/posts";
+import UploadForm from "../components/uploadForm";
+import FileList from "../components/fileList";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -43,6 +45,8 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <UploadForm />
+      <FileList />
     </Layout>
   );
 }

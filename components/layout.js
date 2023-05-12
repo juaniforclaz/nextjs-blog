@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <header className="flex justify-between items-center">
         {home ? (
           <>
             <div className={styles.logoHeader}>

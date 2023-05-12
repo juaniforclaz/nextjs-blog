@@ -6,9 +6,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@firebase/firestore": "^3.11.0",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
     "date-fns": "^2.30.0",
+    "firebase": "^9.21.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.2.0",
