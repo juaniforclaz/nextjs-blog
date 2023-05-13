@@ -72,7 +72,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className="pt-10">
           <Link href="/">
-            <button className="bg-sky-500 hover:bg-sky-700 rounded-full p-2 drop-shadow-md hover:drop-shadow-xl hover:text-white text-slate-300">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               Volver
             </button>
           </Link>

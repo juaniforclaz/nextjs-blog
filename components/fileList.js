@@ -43,8 +43,9 @@ const FileList = () => {
     <div>
       <h2 className="text-2xl font-bold mb-4">Archivos:</h2>
       {files.map((file) => (
-        <div key={file.fileName} className="mb-6 p-4 bg-gray-100 rounded-lg">
+        <div key={file.fileName} className="mb-6 p-4 bg-gray-100 rounded-lg shadow-md">
           <h3 className="text-xl font-bold mb-2">{file.title}</h3>
+          <p className="text-gray-700 mb-2">{file.year}° Año</p>
           <p className="text-gray-700 mb-2">{file.description}</p>
           <p className="text-gray-700 mb-2">
             Nombre del archivo: {file.fileName}
